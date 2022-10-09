@@ -2,6 +2,7 @@
 body{
   max-width: 100%;
   overflow-x: hidden;
+  font-family: sans-serif;
 }
 #title{
   background-color: #ff4c68;
@@ -10,10 +11,60 @@ body{
 h1
 {
   font-family: "Montserrat";
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 1.5;
+  color: white;
 }
 .container-fluid
 {
   padding: 3rem 15rem;
+}
+.navbar
+{
+  padding:0  0 4.5rem;
+}
+.navbar-brand
+{
+  font-family:'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.mob
+{
+  transform: rotate(25deg);
+  width: 60%;
+}
+.nav-item
+{
+
+  font-size: 20px;
+  padding: 0 18px;
+}
+/* features */
+#features
+{
+    padding:7% 14%;
+    font-family: sans-serif;
+}
+.fea
+{
+  color:#ef8172;
+  padding-bottom: 1rem;
+}
+.fea:hover
+{
+  color: #ff4c68;
+}
+.feature-box
+{
+  text-align: center;
+  padding: 5%;
+}
+p
+{
+  color: #8f8f8f;
+}
+.col-lg-4
+{
+  padding-bottom:4rem;
 }
